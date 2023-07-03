@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Suit Batu Gunting Kertas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid d-flex align-items-center justify-content-center bg-transparent" style="height: 100vh;">
+        <div class="game-card p-4 bg-light" style="height: 350px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+          <h1 class="text-center mb-4">Game Suit Batu Gunting Kertas</h1>
+          <div class="text-center mb-3">
+        <button class="btn btn-primary" id="rock">Batu</button>
+        <button class="btn btn-primary" id="paper">Kertas</button>
+        <button class="btn btn-primary" id="scissors">Gunting</button>
+        
+      </div>
+      <div class="text-center mt-3">
+        <p>Pilihan Anda: <span id="player-choice">-</span></p>
+        <p>Pilihan Komputer: <span id="computer-choice">-</span></p>
+        <h2 id="result">Hasil:</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
